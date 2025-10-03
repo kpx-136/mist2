@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+	<head>
+	
+		<meta charset="utf-8">
+		<meta type="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equip="refresh" content="30">
+		
+		<!-- tailwind -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <!-- Titan One font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+		
+		<!-- Tuffy font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		
+		<!-- favicon -->
+		<link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="Assets/favicon.ico" type="image/x-icon">
+
+        <style type="text/tailwindcss">
+            @theme {
+                --color-myblack: #13100b;
+                --color-mygrey: #50493e; /*done*/
+                --color-mylgrey: #7e7254;
+                --color-mylyellow: #cdb586;
+                --color-mypeach: #f5d2a5;
+                --color-mybrown: #4e422c;
+                --color-mysand: #967748;
+                --color-mylpeach: #d6b996; /*done*/
+                --color-mylgreen: #b2b190;
+                --color-myblue: #205b6b;
+            }
+			
+			h1 {
+				font-family: "Titan One", sans-serif;
+			}
+			
+			main {
+				font-family: "Tuffy", sans-serif;
+			}
+        </style>
+	
+		<title>Cat Supremacy</title>
+	
+	</head>
+	
+	<body class = "bg-[url('Assets/background.webp')] w-full h-auto bg-cover">
+	
+		<header class="w-full h-screen flex items-center justify-center">
+			<h1 class="w-full py-2 text-center text-mygrey bg-mylpeach/75 text-[10vw] hover:text-[10.1vw]">CAT SUPREMACY</h1>
+		</header>
+		
+		<main class="grid grid-cols-1 justify-center">
+		
+			<nav class = "mx-auto w-[90%] grid grid-cols-3 gap-4 bg-mybrown text-[25px] items-center text-mylpeach rounded-md sticky top-0">
+			
+				<a href="#intro"><div class="text-center py-2 hover:text-myblue hover:bg-mylgrey">Intro</div></a>
+				
+				<a href="#facts"><div class = "text-center py-2 hover:text-myblue hover:bg-mylgrey">Facts</div></a>
+				
+				<a href="#hof"><div class = "text-center py-2 hover:text-myblue hover:bg-mylgrey">HOF</div></a>
+			
+			</nav>
+		
+			<section id="intro" class = "w-full min-h-screen h-auto bg-mypeach text-mybrown grid grid-cols-1 md:grid-cols-2 items-center p-4">
+			
+				<div>
+				
+					<img src="Assets/royalcat.webp" alt="bossy cat with a crown" class="block max-h-[400px] max-w-full h-auto mx-auto">
+				
+				</div>
+
+				<div class="p-[40px] text-center text-[18px] justify-self-end">
+				
+					<p>
+					Welcome to the club where cats totally run the show—and honestly, we wouldn’t have it any other way. These fluffy little bosses know exactly how to get what they want, whether it’s a snack, a nap spot, or just some random belly rubs (which they may or may not actually like). 
+					</p>
+					
+					<br>
+					
+					<p>
+					Here, we celebrate the silly, mysterious charm of cats—their 3 a.m. zoomies, dramatic stares, and those sneaky paw attacks that keep life interesting. If you’ve ever been outsmarted by a furball, you’re in the right place. Get ready to embrace your inner cat servant!
+					</p>
+				
+				</div>
+			
+			</section>
+			
+			<section id="facts" class = " w-full min-h-screen bg-mylyellow text-mygrey h-auto py-10">
+				
+				<div class = "w-full min-h-screen h-auto grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-2 justify-center items-center">
+				
+					<div class = "m-10">
+
+						<fieldset class = "border border-solid border-3 border-mygrey p-2 text-center">
+
+							<legend class = "p-2"><h2 class = "text-[50px] font-bold">Kitty facts</h2></legend>
+
+							<ul>
+								<li>Cats don’t ask for permission - they expect it. </li>
+								<li>The world revolves around their nap schedule. Plan accordingly. </li>
+								<li>If you’re not feeding them, you’re doing it wrong. </li>
+								<li>Eye contact? That’s negotiation of power. </li>
+								<li>Cats knock things off tables just to remind you who’s boss. </li>
+								<li>Your keyboard belongs to them now. Work can wait. </li>
+								<li>They rule your lap and your heart - with zero apologies. </li>
+								<li>If a cat sits on your stuff, that stuff is officially theirs. </li>
+								<li>Every meow is a command disguised as a cute sound. </li>
+								<li>Remember: you <em>exist</em> to serve the fluff.</li>
+							</ul>
+
+						</fieldset>
+
+					</div>
+					
+					<div>
+
+						<img src="Assets/judgeycat.jpg" alt="Judgey looking cat" class = "block max-h-[400px] h-auto max-w-full mx-auto">
+
+					</div>
+				
+				</div>
+			
+			</section>
+
+			<section id="hof" class ="w-full grid grid-cols-1 items-center h-auto bg-mylgreen min-h-screen py-10 text-center">
+
+				<h2 class = "text-[50px] font-bold text-mybrown">The Kitty Hall of Fame</h2>
+
+				<div class = "grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-auto max-w-[90%] mx-auto my-6 rounded-md h-auto bg-mybrown p-4">
+
+					<div class = "card max-w-[1fr] rounded-md bg-mylgrey p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Cheshire Cat</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/cheshire-cat.png" alt="picture of Cheshire Cat" class = "mx-auto w-[250px]">
+							<p>
+								A mysterious and grinning cat who speaks in riddles and paradoxes. Known for his disappearing act, leaving only his iconic smile behind. A symbol of whimsical, cryptic wisdom and playful mischief.
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Garfield</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/garfield.jpg" alt="picture of Garfield" class = "mx-auto w-[250px]">
+							<p>
+								Whether he’s bossing around Odie or demanding lasagna from Jon, Garfield is the original grumpy cat. He’s lazy, sarcastic, and thinks the world revolves around his next nap. Mondays beware—Garfield rules them all, with a disdainful flick of his tail. 
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Salem Saberhagen</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/salem-saberhagen.jpg" alt="picture of Salem Saberhagen" class = "mx-auto w-[250px]">
+							<p>
+								This witty, talking cat from Sabrina the Teenage Witch was once a powerful wizard, now sentenced to sassy cat-dom. Always plotting schemes and dropping sarcastic one-liners, Salem is a master of dry humor and feline arrogance.
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Snowbell</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/snowbell.webp" alt="picture of Snowbell" class = "mx-auto w-[250px]">
+							<p>
+								Stuart Little’s house cat, Snowbell, is constantly scheming against his tiny mouse housemate. He’s dramatic, self-absorbed, and full of feline complaints—nobody does sneaky side-eye better.
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Mrs. Norris</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/mrs-norris.webp" alt="picture of Mrs. Norris" class = "mx-auto w-[250px]">
+							<p>
+								The ever-watchful companion to Argus Filch in Harry Potter, Mrs. Norris is the ultimate cattish narc. She creeps around Hogwarts looking for troublemakers, making everyone feel suspicious and uneasy.
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Crookshanks</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/crookshanks.webp" alt="picture of Crookshanks" class = "mx-auto w-[250px]">
+							<p>
+								Hermione’s pet in Harry Potter, Crookshanks has a perpetually squished face and a knack for judging others. He’s clever, aloof, and always ready to glare at anyone he doesn’t trust—which is almost everyone.
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Puss in Boots</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/puss-in-boots.jpg" alt="picture of Puss in Boots" class = "mx-auto w-[250px]">
+							<p>
+								This fairy tale legend is as bossy as he is charming. Puss manipulates, outsmarts, and swindles his way through every story with style (and a fabulous set of boots).
+							</p>
+						</div>
+
+					</div>
+					
+					<div class = "card flow max-w-[1fr] bg-mylgrey rounded-md p-4 text-mylpeach">
+
+						<h3 class = "text-3xl mb-3">Cat in the Hat</h3>
+						<div class = "flex gap-3 flex-wrap min-width-[350px]">
+							<img src="Assets/cat-in-the-hat.webp" alt="picture of the Cat in the Hat" class = "mx-auto w-[250px]">
+							<p>
+								Chaos and attitude enter the room whenever Cat in the Hat arrives. He breaks the rules, bosses the kids around, and creates beautiful messes—all with a sly grin and his signature red bow.
+							</p>
+						</div>
+
+					</div>
+
+				</div>	
+
+			</section>
+			
+			<footer class = "bg-myblack/75 w-full h-auto p-3 text-mylgreen text-center">
+				I own none of the pictures. Content generated using Perplexity. 
+			</footer>
+		
+		</main>
+	
+	</body>
+
+</html>
